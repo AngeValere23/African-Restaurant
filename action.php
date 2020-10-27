@@ -170,7 +170,7 @@ $body = "Hello, bosoir madame comment vas-tu? je t'ai envoyé une commande sur v
 $subject = "Je vous contacte pour ma commande";
 
 $headers = array(
-  'Authorization: Bearer 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',
+  'Authorization: Bearer Your APIKEY,
   'Content-Type: application/json'
 );
 
