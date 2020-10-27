@@ -14,19 +14,19 @@ $config['use_smtp']				= true;						// true|false
 	Please, create an intenal email addres like: noreply@yourdomain.com
 	You can find SMTP settings in your cPanel (host/port)
 **/
-$config['smtp_host'] 			= 'smtp.gmail.com';   									// eg.: smtp.gmail.com
+$config['smtp_host'] 			= 'yoursmtp.com';   									// eg.: smtp.gmail.com
 $config['smtp_port'] 			= 587;													// eg.: 587
-$config['smtp_user'] 			= 'zambleangevalere@gmail.com'; 						// you@gmail.com
-$config['smtp_pass'] 			= 'Seigneur15';											// password
+$config['smtp_user'] 			= 'yourmail@example.com'; 						// you@gmail.com
+$config['smtp_pass'] 			= 'youremailpassword';											// password
 $config['smtp_ssl']				= false;												// should remain false
 
 
 // Who receive all emails?
-$config['send_to']				= 'zambleangevalere@gmail.com';	// destination of all emails sent throught contact form
+$config['send_to']				= 'youremail';	// destination of all emails sent throught contact form
 
 
 // Email Subject
-$config['subject']				= 'Un nouveau Message de votre site';	// subject of emails you receive
+$config['subject']				= 'your subject';	// subject of emails you receive
 
 
 

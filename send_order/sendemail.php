@@ -39,20 +39,20 @@ if(isset($_POST['submit'])){
 
     try{
       $mail->isSMTP();
-      $mail->Host = 'smtp.gmail.com';
+      $mail->Host = 'yoursmtp.com';
       $mail->SMTPAuth = true;
-      $mail->Username = 'zambleangevalere@gmail.com'; // Gmail address which you want to use as SMTP server
-      $mail->Password = 'Seigneur15'; // Gmail address Password
+      $mail->Username = 'youremail@example.com'; // Gmail address which you want to use as SMTP server
+      $mail->Password = 'yourpasword'; // Gmail address Password
       $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
       $mail->Port = '587';
 
       $mail->setFrom($email); // Gmail address which you used as SMTP server
-      $mail->addAddress('zambleangevalere@gmail.com'); // Email address where you want to receive emails (you can use any of your gmail address including the gmail address which you used as SMTP server)
+      $mail->addAddress('the receive email'); // Email address where you want to receive emails (you can use any of your gmail address including the gmail address which you used as SMTP server)
 
     
 
       $mail->isHTML(true);
-      $mail->Subject = 'Un Message de votre site (Nouvelle commande)';
+      $mail->Subject = 'your subject';
       $mail->Body = "
                   
                   
